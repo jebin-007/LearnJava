@@ -7,3 +7,8 @@
 
 #Ignore bin path
 /bin/
+
+
+#Ignored files
+
+jjText.txt
