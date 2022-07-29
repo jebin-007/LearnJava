@@ -3,3 +3,7 @@
 
 #Log files
 *.log
+
+
+#Ignore bin path
+/bin
