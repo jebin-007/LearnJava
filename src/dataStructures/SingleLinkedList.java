@@ -24,7 +24,7 @@ public class SingleLinkedList {
 			head = newNode;	
 		}
 		else {
-			tail
+		
 		}
 	}
 
