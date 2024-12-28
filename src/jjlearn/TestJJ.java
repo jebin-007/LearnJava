@@ -1,17 +1,25 @@
 package jjlearn;
+import java.util.Arrays;
 
-public class TestJJ {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		int[] a = {34,56,27,98,19};
-		for(int i:a) {
-			System.out.println(i);
-			
-		}	
-
-
+class TestJJ{
+	 int id=1;
+	 String name="abc";
+	 TestJJ(int id, String name)
+	 {
+	 id=id;
+	 this.name=name;
+	 }
+	 public static void main(String args[])
+	  {
+		 String s1 = "Welcome";
+		 String s2="To Java";
+		 String s3=s1+s2;
+		 String s4=s1.concat(s2);
+		 System.out.println(s3==s4);
+		 System.out.println(s3.equals(s4));
+	  }
+	 
+	 
 	}
+	
 
-}
